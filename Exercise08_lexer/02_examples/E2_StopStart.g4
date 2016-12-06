@@ -3,7 +3,7 @@
 lexer grammar E2_StopStart;
 
 COMMAND: 'stop' { System.out.println("Stop command received");} 
-     | 'start' 
+     | 'start'
          { System.out.println("Start command received"); }
      | .+? {System.out.println("other text read: "+getText()); } ;
 

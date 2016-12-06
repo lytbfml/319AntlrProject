@@ -12,5 +12,5 @@ HELLO: 'hello' {System.out.println("matching HELLO rule:" + getText());}
 // 5. getText() gives you the token that was just found!
 
 WS: [ \r\t\n]+ {System.out.println("matching WS rule");skip();};
-// 6. skip() is used to ignore the token and go on to reading the next
-// token.
+// 6. skip() is used to  the token and go on to reading the next
+// token.ignore
